@@ -14,15 +14,15 @@ Develop React Native with ReasonML. This will give you a React Native app called
 ## Build (ReasonML to js)
 
 ### IDE
-VS Code can automatically build your .re files to .bs.js with this extension: [Reason Language Server](https://marketplace.visualstudio.com/items?itemName=jaredly.reason-vscode)
+VS Code can automatically build your .re files to .bs.js with this extension: [Reason Language Server / jaredly.reason-vscode](https://marketplace.visualstudio.com/items?itemName=jaredly.reason-vscode)
 
-Seems flimsy though...
+Seems flimsy though. Building can be disabled and the extension is good for things like autocomplete etc.
 
 ### CLI
 `yarn re:build` or `yarn re:watch` to watch for changes
 
 ## Test
-Testing with Jest, react-test-renderer and bs-jest (Write Jest tests in Reason). (There are React bindings for testing-library, but not yet for React Native).
+Testing with Jest, react-test-renderer and bs-jest (write Jest tests in Reason). (There are Reason React bindings for [Testing Library](https://testing-library.com/), but not yet for Reason React Native).
 
 `yarn test` or `yarn test:watch`
 
